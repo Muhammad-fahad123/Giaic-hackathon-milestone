@@ -1,0 +1,85 @@
+/* Styling for the Dynamic Resume Builder */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f4ef; /* Light beige background for a warm theme */
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #854d27; /* Warm brown for headings */
+  margin-bottom: 20px;
+}
+
+form,
+#resume-display {
+  max-width: 700px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 2px solid #d6a960; /* Golden brown border */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff8e7; /* Soft cream background for fieldsets */
+}
+
+legend {
+  font-weight: bold;
+  color: #5a3d2b; /* Rich brown color for legends */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #d6a960; /* Golden brown border */
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fffaf3; /* Slightly creamy background */
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #d6a960; /* Golden brown button */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #b58542; /* Slightly darker golden brown on hover */
+}
+
+#resume-display {
+  text-align: left;
+  border: 2px solid #d6a960; /* Golden brown border */
+  border-radius: 8px;
+  background-color: #fff8e7; /* Soft cream background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+#resume-display h2 {
+  color: #854d27; /* Warm brown color for headings */
+  text-align: center;
+}
